@@ -1,0 +1,136 @@
+:root {
+    --darkGray: #2d3748;
+    --gray: #4a5568;
+    --grayLight: #f7fafc;
+    --primary: #6b46c1;
+  }
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+  background: white;
+  height: 85px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+}
+
+.navbar > h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu {
+  text-decoration: none;
+}
+
+.hero-container {
+  display: flex;
+  height: 470px;
+  padding: 0 10%;
+}
+
+.hero-container1 {
+  display: flex;
+  height: 600px;
+  padding: 0 10%;
+}
+
+.hero-container2 {
+  display: flex;
+  height: 600px;
+  padding: 0 10%;
+}
+
+.hero-container1 > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container2 > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container h1 {
+  font-size: 60px;
+  width: 360px;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+.hero-container1 h1 {
+  font-size: 60px;
+  width: 360px;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+.hero-container2 a {
+  font-size: 60px;
+  width: 360px;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+.hero-container p {
+  font-size: 30px;
+  color: var(--gray);
+}
+
+.hero-container1 p {
+  font-size: 30px;
+  color: var(--gray);
+}
+
+.hero-container2 h1 {
+  font-size: 30px;
+}
+
+.hero-container > img {
+  height: 500px;
+  align-self: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 80px;
+}
+footer > div {
+  display: flex;
+  gap: 30px;
+}
+
+.carousel {
+  display: "flex";
+  gap: 30;
+}
